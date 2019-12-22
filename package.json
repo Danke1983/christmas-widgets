@@ -1,6 +1,6 @@
 {
   "name": "christmas-widgets",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Hello my name is Danke these are my widgets",
   "scripts": {
     "start": "react-scripts start",
