@@ -56,7 +56,6 @@ export default class FreeDraw extends React.Component {
             [...Array(10).keys()].map(col => {
               return [...Array(10).keys()].map(row => {
                 if (this.state.active[(row * 10) + col]) {
-                  console.log(this.words[(row * 10) + col] + " ");
                   return this.words[(row * 10) + col] + " ";
                 }
                 else {
