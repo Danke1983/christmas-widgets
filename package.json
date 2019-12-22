@@ -1,0 +1,58 @@
+{
+  "name": "christmas-widgets",
+  "version": "1.0.3",
+  "description": "Hello my name is Danke these are my widgets",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "install": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files",
+    "publish:npm": "rm -rf dist && mkdir dist &&  babel src/components -d dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danke1983/christmas-widgets.git"
+  },
+  "keywords": [
+    "santa-claus",
+    "christmas",
+    "x-mas"
+  ],
+  "author": "Danke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Danke1983/christmas-widgets/issues"
+  },
+  "homepage": "https://github.com/Danke1983/christmas-widgets#readme",
+  "dependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "bootstrap": "^4.4.1",
+    "fibers": "^4.0.2",
+    "jquery": "^3.4.1",
+    "react-bootstrap": "^1.0.0-beta.16"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  }
+}
